@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#a4f1da"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="KRISHAK SAHAYATA"
+        android:textColor="#078e1b"
+        android:textSize="110px"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivSplash"
+        android:layout_width="382dp"
+        android:layout_height="570dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/farmers_guide_icon" />
+
+    <TextView
+        android:id="@+id/tvMotto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="118dp"
+        android:text="The Ultimate Guide to Farmer's Rescue!"
+        android:textColor="#000000"
+        android:textSize="60px"
+        android:textStyle="bold" />
+</RelativeLayout>
